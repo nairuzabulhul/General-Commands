@@ -1,0 +1,4 @@
+hg pull
+hg status
+hg commit -m "Updates"
+hg push 
