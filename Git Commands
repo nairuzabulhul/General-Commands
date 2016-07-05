@@ -2,3 +2,14 @@ hg pull
 hg status
 hg commit -m "Updates"
 hg push 
+
+
+
+//Github Commnads
+git init
+
+git add .
+
+git commit -m "Initial Commit"
+
+git push
