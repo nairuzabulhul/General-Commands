@@ -38,6 +38,12 @@ hg push
 Get the repo
 
 Just clone it:
-
 GitHub: git clone git@github.com:YOUR_USERNAME/REPO_NAME.git
 BitBucket: git clone git@bitbucket.org:USERNAME/REPO_NAME.git  
+
+Committing the changes after updating the files:
+git commit -a -m "your comment"
+
+push the files to the exsiting repo
+
+git push
