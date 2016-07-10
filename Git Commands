@@ -13,3 +13,32 @@ git add .
 git commit -m "Initial Commit"
 
 git push
+
+1- Create a local repository 
+   
+   mkdir newrepo
+
+2- cd to that newrepo
+  cd newrepo
+  
+3- inside the newrepos, initialize a git gile
+  - git init
+  
+4- Add files to the direcotry 
+
+5-  Check the added files 
+
+    git status
+
+6- Add them to git 
+  git add name of file
+  
+7- Commit the changes
+
+  git commit -m "initial commit"
+  
+8- Push the chnages 
+ 
+  git push --set-upstream origin master
+
+  
