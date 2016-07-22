@@ -12,10 +12,32 @@
 >> ```sudo apt-get install mongodb-org```
 
 
-3- run monogo
+3- Run monogo
 
 >> ```./mongo ```
 
+
+4- Start mongo (other option)
+
+```sudo service mongod start```
+
+5- Stop monog
+
+```sudo service mongod stop ```
+
+6- Restart mongo
+
+```sudo service mongod restart ```
+
+7- Remove packages:
+
+```sudo apt-get purge mongodb-org*```
+
+8- Remove Data Directories
+
+```sudo rm -r /var/log/mongodb ```
+
+```sudo rm -r /var/lib/mongodb   ```
 
 
 ##Interactign with monogdb:
