@@ -11,29 +11,37 @@
 
 >> ```sudo apt-get install mongodb-org```
 
+3- Setup the Path 
 
-3- Run monogo
+``` echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod ```
+
+
+4- Make mongod exectutable 
+
+``` chmod a+x mongod ```
+
+5- Run monogo
 
 >> ```./mongo ```
 
 
-4- Start mongo (other option)
+6- Start mongo (other option)
 
 ```sudo service mongod start```
 
-5- Stop monog
+7- Stop monog
 
 ```sudo service mongod stop ```
 
-6- Restart mongo
+8- Restart mongo
 
 ```sudo service mongod restart ```
 
-7- Remove packages:
+9- Remove packages:
 
 ```sudo apt-get purge mongodb-org*```
 
-8- Remove Data Directories
+10- Remove Data Directories
 
 ```sudo rm -r /var/log/mongodb ```
 
