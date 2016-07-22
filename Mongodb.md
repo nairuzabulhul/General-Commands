@@ -71,3 +71,7 @@
 5- To Show all data in one database
 
 ``` db.nameOFDB.find() ```
+
+6- Remove database from the terminal
+
+```mongo <dbname> --eval "db.dropDatabase()"```
