@@ -77,7 +77,7 @@ push the files to the exsiting repo
 git push
 
 
-## BitBuck Commands:
+## BitBucket Commands:
 - hg pull
 - hg status
 - hg commit -m "Updates"
