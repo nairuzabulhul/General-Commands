@@ -22,7 +22,7 @@
 
 ``` git clone git@github.com:nairuzabulhul/General-Commands.git (path of your repository)```
 
-note: the path can be found by clicking the green button Clone or Download. you will #Clone with SSH 
+note: the path can be found by clicking the green button Clone or Download. you will need #Clone with SSH 
 
 
 ## Working with the clone repository :
