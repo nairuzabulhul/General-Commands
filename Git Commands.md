@@ -2,7 +2,7 @@
 ![Log](http://media.w3guy.com/wp-content/uploads/2015/02/git.jpg)
 
 
-# Gitgub commands with SSH:
+# Github commands with SSH:
 
 ## Generate an SSH key :
 
