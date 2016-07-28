@@ -87,3 +87,7 @@ ModelName.findByIdAndUpdate(id, firstName, function(error, updatedPost){
    });
   ```  
 
+## Get OjectID mongodb entry:
+```
+var id = mongoose.Types.ObjectId(this.id)
+```
