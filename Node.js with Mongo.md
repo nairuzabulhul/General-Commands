@@ -91,3 +91,35 @@ ModelName.findByIdAndUpdate(id, firstName, function(error, updatedPost){
 ```
 var id = mongoose.Types.ObjectId(this.id)
 ```
+
+
+
+## Create new Entry and Update if exists
+
+```
+var id = req.body.id.trim(),//trim to remove spaces
+// create a model firsts
+  var formData = {
+        'firstName': req.body.firstName,
+        'lastName': req.body.lastName,
+        'address': req.body.address,
+        'city': req.body.city,
+        'state': req.body.state,
+        'zipcode': req.body.zipcode,
+    };
+
+    if (id === null ) {
+        Form.create(formData, function (err, doc) {
+            if (err) { console.log('ERROR:', err); }
+            console.log('CREATED DOCUMENT:', doc);
+            return res.send(doc);
+        });
+    } else {
+        Form.update({"_id": id}, formData, function(err, doc) {
+            if (err) { console.log('ERROR:', err); }
+            console.log(doc);
+        });
+        
+       
+    }
+```
