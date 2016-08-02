@@ -6,7 +6,14 @@
 
 ##Username:
 
+1- Open the terminal :
+
 ```$ python manage.py shell```
+
+2- Import :
+
+from django.contrib.auth.models import User
+
 ```
 >>> from django.contrib.auth.models import User
 
