@@ -16,7 +16,7 @@ def auto_sms_messges ():
 	client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN) 
 	 
 	client.messages.create( 
-		to    ="+15712259466", 
+		to    ="yourNumber", 
 		from_ = twilio_company_number, 
 		body  = default_message
 	) 
