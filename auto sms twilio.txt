@@ -8,8 +8,8 @@ from twilio.rest import TwilioRestClient
 def auto_sms_messges (): 
 
 # twilio credentials 
-	ACCOUNT_SID           = "AC926bd311217535232393c435fe477e06" 
-	AUTH_TOKEN            = "520a27e9ab21ad78cd575a1ca25676b7" 
+	ACCOUNT_SID           = "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
+	AUTH_TOKEN            = "52xxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
 	twilio_company_number = "+12403033521"
 	default_message       = "Hello from Twilio "
 	 
