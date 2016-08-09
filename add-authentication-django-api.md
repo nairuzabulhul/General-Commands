@@ -1,3 +1,5 @@
+![Log](https://s9.postimg.org/4vmq0jqwf/django.jpg)
+
 #Add authentication to Django API
 
 1- Add Authentication to the settings.py
