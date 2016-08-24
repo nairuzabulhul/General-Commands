@@ -46,3 +46,6 @@ print num_list
 
 print [ num for num in range(0,10) if num % 2 == 0 ]
 ```
+
+
+# Problem 3:
