@@ -49,3 +49,31 @@ print [ num for num in range(0,10) if num % 2 == 0 ]
 
 
 # Problem 3:
+
+```
+# Use List comprehension to create a list of all numbers between 
+# 1 and 50 that are divisible by 3
+
+print [num for num in range(1,50) if num % 3 == 0 ]
+
+```
+
+# Problem 4:
+
+```
+## Go through the string below and if the length of a word is even print "even"
+# "Print every word in this sentence that has an even nymber of letters"
+
+str = "Print every word in this sentence that has an even number of letters"
+
+strSplit = str.split()
+
+print strSplit
+
+
+for x in strSplit:
+    if len(x) % 2 == 0:
+        print "even"
+```
+
+# Problem 5:
