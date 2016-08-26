@@ -77,3 +77,28 @@ for x in strSplit:
 ```
 
 # Problem 5:
+
+```
+""" Write a program that prints that integers from 1 to 100. But for mulitple of three print "Fizz" instead of the number
+    , and for the multiples of five print "Buzz".
+    For numbers which aree multiples of both
+    three and five print "FizzBuzz"
+"""
+
+num = []
+
+for x in range(1,100):
+    if x % 3 == 0:
+        num.append("Fizz")
+    elif x % 5 == 0 :
+        num.append("Buzz")
+    
+    elif x % 3 == 0  and x % 5  == 0 :
+        num.append("FizzBuzz")
+        
+
+print num
+```
+
+# Problem 6 :
+
