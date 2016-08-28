@@ -102,3 +102,13 @@ print num
 
 # Problem 6 :
 
+```
+# Use List Comprehension to create list of the first letters of every word in the string 
+
+str = "create list of the first letters of every word in the string "
+splitStr= str.split()
+
+print [first_letter[0] for first_letter in splitStr]
+
+```
+
