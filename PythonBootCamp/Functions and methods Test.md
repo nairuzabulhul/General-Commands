@@ -113,12 +113,12 @@ Write a function to multiply all the numbers in a list
 ```
 def multi_list(l):
 
-    sum_of_number = 0 
+     multi_of_number = 0 
     
     for num in l :
-        sum_of_number += num
+        multi_of_number *= num
     
-    return sum_of_number
+    return  multi_of_number
 
 num_list = [1,2,3,2]
 print multi_list(num_list)
