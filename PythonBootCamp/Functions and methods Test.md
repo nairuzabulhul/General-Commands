@@ -61,6 +61,7 @@ print ran_bool(3, 0, 10) #returns True
 # Problem 3:
 
 Write a function that accepts a string and calculate the number of uppercase letters and lower case letters
+
 Sample String:
 'Hello Mr. Rogers, how are you this fine Tuesday?'
 
@@ -130,3 +131,55 @@ print multi_list(num_list)
 
 # Problem 6:
 
+Write a function that checks whether a passed string is palindrome or not:
+
+Note: A Palindrome is a word, phrase or sequence that reads the same backward ad forward
+
+```
+def panlindrome_nums(str):
+    
+    newStr = str.replace(" ","") # get rid of the white space
+    
+    reversed_str = newStr[::-1] # using -1 to reverse the string
+    
+    if newStr == reversed_str :
+        return True
+    else:
+        return False
+
+print panlindrome_nums('madam') # returns True
+
+#Strategy
+1- Remove whitespace from the string using repalce()
+2- Reverse the string 
+3- compare the newstring with the reversed string
+```
+
+# Problem 7 :
+
+Write a function to check whether a string is pangram or not
+
+Note: Pangrams are words or sentences containing every
+letter of the alphabet at least once
+
+For example : "The quick brown fox jumps over the lazy dog"
+
+```
+import string
+
+def ispangram (str1, alphabet=string.ascii_lowercase):
+    
+ for char in alphabet:
+        if char in str1 :
+             return True
+        else:
+            return False
+        
+print ispangram ("The quick", alphabet=string.ascii_lowercase) 
+
+# Strategy:
+1- import string module to use asccii_lowercase---> result is string of alphabet lowercase
+2- for loop through alphabet
+3- Check if the char in the string
+
+```
