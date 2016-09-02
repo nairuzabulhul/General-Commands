@@ -88,3 +88,45 @@ print count_letters("Hello Mr. Rogers, how are you this fine Tuesday?")
 ```
 
 # Problem 4:
+
+Write a function that takes a list and returns a new list with unique elements from the first list 
+```
+def unique_list(l):
+
+    result = set(l)
+    
+    return list(result)
+
+num_list = [1,1,1,2,7,5,5,3,3]
+
+print unique_list(num_list)
+
+# Strategy :
+1- use set function, it removes duplicates in the list
+2- cast set as list to return a list of unique numbers
+```
+
+# Problem 5 :
+
+Write a function to multiply all the numbers in a list
+```
+def multi_list(l):
+
+    sum_of_number = 0 
+    
+    for num in l :
+        sum_of_number += num
+    
+    return sum_of_number
+
+num_list = [1,2,3,2]
+print multi_list(num_list)
+
+#Strategy:
+1- create a counter to add the numbers to
+2- for loop through the list and add every elements to the "sum_of_number"
+3- return the sum_of_number
+```
+
+# Problem 6:
+
