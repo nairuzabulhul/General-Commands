@@ -1,13 +1,16 @@
 ### Networking 
 
-#### Tools:
+#### Contents:
 
-- [Nmap]()
 - [Routing Tables](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#routing-tables)
 - [MAC Addresses]()
-- Switches
-- Hubs
--   ARP
+- [Switches]
+- [Hubs]
+- [TCP/UDP]
+- [Common Ports]
+- [Netstat]
+- [ARP]
+-  [Nmap]()
 - [WireShark]()
 
 __OSI Model__
@@ -114,6 +117,41 @@ __OSX__
     __Ex: Streaming videos: Nertflix , Skype calls__
 
 
+### Common Ports:
+| Port Number  | Service  |
+|---|---|
+| 25   | SMTP   |
+| 21   |  FTP |
+| 22   | SSH |
+| 110  |  POP3 |
+| 23   |  Telnet |
+| 80   | HTTP   |
+| 443  |  HTTPS |
+| 143  | IMAP   |
+| 137 - 139| NetBIOS   |
+| 3389 |  RDP |
+| 3306 | SQL |
+|  1433| MS SQL |
+
+
+### Netstat
+    
+__Windows__:
+    
+        netstat -ano 
+        
+
+__Linux__:
+
+    nestat -tunp 
+    
+
+__OSX__:
+
+    netstat -p --> review this 
+        
+    
+        
 #### Nmap
 
 
