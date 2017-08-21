@@ -19,11 +19,11 @@ __OSI Model__
     
 #### Routing Tables 
 
-    __Windows__ : 
+  __Windows__ : 
         
         route print 
 
-    __Linux__ :
+  __Linux__ :
     
         ip route 
         
@@ -33,7 +33,7 @@ __OSI Model__
         
         rout del -host IP_address  -gw Degfault_Gateway Interface_Name  
         
-    __OSX__:
+  __OSX__:
     
         netstat -r 
         
