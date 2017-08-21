@@ -17,7 +17,8 @@
 - [Kerbros ]
 - [Wireshark Filtering ]
 - [Nmap](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#nmap)
-
+- [Ping]
+- [nslookup]
 
 __OSI Model__
         
@@ -199,7 +200,9 @@ __OSX__
 ### Nmap
 
 
+### Ping
 
+### nslookup 
 
 
 
