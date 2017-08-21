@@ -3,7 +3,7 @@
 #### Tools:
 
 - [Nmap](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#nmap)
-- [Routing Tables](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#routingtables)
+- [Routing Tables](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#routing-tables)
 - [WireShark]()
 
 __OSI Model__
@@ -17,7 +17,7 @@ __OSI Model__
         - Physical 
     
     
-#### Routing Table 
+#### Routing Tables 
 
     __Windows__ : 
         
