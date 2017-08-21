@@ -21,7 +21,7 @@ __OSI Model__
         - Physical 
     
     
-### Routing Table: 
+### Routing Tables: 
 
     __Windows__ : 
         
