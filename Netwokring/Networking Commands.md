@@ -3,15 +3,15 @@
 #### Contents:
 
 - [Routing Tables](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#routing-tables)
-- [MAC Addresses]()
-- [Switches]
-- [Hubs]
-- [TCP/UDP]
-- [Common Ports]
-- [Netstat]
-- [ARP]
--  [Nmap]()
-- [WireShark]()
+- [MAC Addresses](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#mac-addresses)
+- [Hubs](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#hubs)
+- [Switches](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#switches)
+- [TCP/UDP](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#tcpudp)
+- [Common Ports](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#common-ports)
+- [Netstat](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#netstat)
+- [ARP](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#arp)
+-  [Nmap](https://github.com/nairuzabulhul/General-Commands/blob/master/Netwokring/Networking%20Commands.md#nmap)
+
 
 __OSI Model__
         
@@ -63,27 +63,6 @@ __OSX__:
       ifconfig 
         
         
-### ARP: 
-
->> Binding IP address with MAC address
-
-   - __ARP Request__ 
-   - __ARP Reply__ 
-
-__Windows__
-
-        arp -a
-        
-__Linux__
-
-    ip neighbor 
-    
-    arp 
-    
-__OSX__
-
-    arp 
-    
 
 
 ### Hubs:
@@ -151,7 +130,29 @@ __OSX__:
     netstat -p --> review this 
         
     
+### ARP: 
+
+>> Binding IP address with MAC address
+
+   - __ARP Request__ 
+   - __ARP Reply__ 
+
+__Windows__
+
+        arp -a
         
+__Linux__
+
+    ip neighbor 
+    
+    arp 
+    
+__OSX__
+
+    arp 
+    
+
+    
 #### Nmap
 
 
