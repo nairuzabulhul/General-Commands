@@ -21,7 +21,7 @@ __OSI Model__
         - Physical 
     
     
-- __Routing Table__
+### Routing Table: 
 
     __Windows__ : 
         
@@ -43,7 +43,7 @@ __OSI Model__
         
 
 
-#### MAC Addresses: 
+### MAC Addresses: 
 
 >> Physical Address of the Network Interface Card (NIC)
 
@@ -61,7 +61,7 @@ __OSX__:
       ifconfig 
         
         
-#### ARP: 
+### ARP: 
 
 >> Binding IP address with MAC address
 
@@ -84,12 +84,12 @@ __OSX__
     
 
 
-#### Hubs:
+### Hubs:
 
 >> are repeaters forward packets by repeating electrical signals. Hubs send packets to all clients on the network 
 
 
-#### Switches : 
+### Switches : 
 
 >>  
 
@@ -97,7 +97,7 @@ __OSX__
 - 
 
 
-#### TCP/UDP
+### TCP/UDP
 
 - __TCP__ Transport Control Protocol 
     
