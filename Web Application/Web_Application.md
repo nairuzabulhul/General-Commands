@@ -25,6 +25,13 @@
 - __OpenSSL__
     
         EX:
+            openssl -s_client -connect www.cnn.com:443  --> connect with HTTPS
+
+             openssl -s_client -connect www.cnn.com:443 -debug --> for analysis and debugging of SSL handshake 
+             
+             openssl -s_client -connect www.cnn.com:443  --> Check the status of the handshake 
+             
+              openssl -s_client -connect www.cnn.com:443 -quiet >> to reduce the verbosity of the output 
 
 
 ### BurpSuite Tools:
